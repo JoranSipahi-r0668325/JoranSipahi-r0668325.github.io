@@ -11,7 +11,7 @@
 /* Basic */
 
 body {
-    background: #fff;
+    background: #000;
 }
 
 body.is-loading * {
@@ -738,7 +738,7 @@ table td {
 }
 
 table th {
-    color: #545454;
+    color: #E04D48;
     font-size: 0.9em;
     font-weight: 700;
     padding: 0 0.75em 0.75em 0.75em;
@@ -1024,7 +1024,8 @@ input[type="button"]:disabled,
 /* Wrapper */
 
 .wrapper {
-    padding: 5em 0 3em 0;
+    padding: 1em 0 1em 0;
+    padding-left: 10px;
 }
 
 .wrapper.style1 {
@@ -1037,12 +1038,24 @@ input[type="button"]:disabled,
 }
 
 .wrapper.style2 {
-    background: #ffffff;
+    background: #E04D48;
+    color: whitesmoke;
+}
+
+.wrapper.style2 h1,
+.wrapper.style2 h2,
+.wrapper.style2 h3,
+.wrapper.style2 h4,
+.wrapper.style2 h5,
+.wrapper.style2 h6 {
+    color: whitesmoke;
 }
 
 .wrapper.style3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
     background: #444444;
-    color: #d1f2f5;
+    color: whitesmoke;
 }
 
 .wrapper.style3 h1,
