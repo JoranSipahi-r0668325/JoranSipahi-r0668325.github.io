@@ -236,6 +236,11 @@ form {
     margin: 0 0 2em 0;
 }
 
+#coloredBG {
+    background-color: gainsboro;
+    padding: 1;
+}
+
 label {
     color: #545454;
     display: block;
